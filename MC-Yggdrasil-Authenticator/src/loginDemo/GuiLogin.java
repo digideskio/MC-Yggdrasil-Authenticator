@@ -51,7 +51,7 @@ public class GuiLogin implements ActionListener, PropertyChangeListener {
 	}
 	
 	public GuiLogin() {
-	    frame = new JFrame("MCTextualClient Login");
+	    frame = new JFrame("Minecraft Server Login");
 	    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    frame.setResizable(false);
 	    frame.setContentPane(createLoginPane());

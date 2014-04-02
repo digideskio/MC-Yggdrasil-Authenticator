@@ -41,6 +41,7 @@ public class AuthRequest {
 	public AuthRequest(String username, String password) {
 		this.username = username;
 		this.password = password;
+		user = new User();
 		clientToken = UUID.randomUUID().toString();
 		agent = new Agent();
 	}
